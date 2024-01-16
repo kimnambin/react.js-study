@@ -12,11 +12,11 @@ function App() {
   <Router>
     <Switch>
     {/*디테일(상세페이지)으로 간다는 뜻 */}
-    <Route path="/movie">
+    <Route path="/abot-us">
         <Detail></Detail></Route>
 
 {/*홈으로 간다는 뜻 */}
-<Route path="/"> <Home />
+<Route path="/:id"> <Home />
 </Route>
     </Switch>
   </Router>
